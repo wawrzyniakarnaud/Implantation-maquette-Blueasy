@@ -1,0 +1,466 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/*            BLE             */
+
+#home {
+    width: 1170px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+
+
+}
+
+body {
+    background-image: url(total.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+header {
+    top: 0px;
+    left: 0px;
+    background-color: rgba(69, 80, 87, 0.8);
+}
+
+.logo {
+
+    width: 20%;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: whitesmoke;
+
+}
+
+strong {
+    color: cyan;
+    /*E*/
+}
+
+.ab {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 800;
+    margin-right: 10px;
+    border: rgba(0, 0, 0, 0) solid 2px;
+    padding: 10px;
+}
+
+.ab:hover {
+    border: solid cyan 2px;
+    color: cyan;
+    padding: 10px;
+}
+
+.nava {
+
+    background-color: rgba (580, 580, 850, 000);
+}
+
+.texta {
+    background-color: rgba(0, 0, 0, 0.500);
+    color: white;
+    font-size: 2.4em;
+    width: 700px;
+    padding: 0.3%;
+    text-align: center;
+    position: relative;
+    top: 260px;
+    left: 590px;
+}
+
+.textb {
+    background-color: rgba(0, 0, 0, 0.500);
+    color: white;
+    font-size: 2.4em;
+    width: 1000px;
+    text-align: center;
+    position: relative;
+    top: 280px;
+    left: 450px;
+    padding: 0.3%;
+}
+
+
+
+
+
+
+
+
+
+/* BLEU */
+
+#services {
+    margin-top: 600px;
+    padding-bottom: 100px;
+}
+
+.serv {
+    padding-top: 5px;
+    margin-left: 365px;
+    font-size: 2em;
+
+
+}
+
+.bleu {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 1170px;
+    margin: auto;
+}
+
+.textblue {
+    font-size: 0.8em;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+article {}
+
+.sectionbleu h2,
+h3 {
+    color: whitesmoke;
+}
+
+
+
+
+
+/* blanc*/
+
+#portfolio {
+    width: 1180px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.folio {
+    font-size: 2em;
+}
+
+.navab {
+    color: black;
+}
+
+.afolio {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    margin-right: 10px;
+    border: rgba(0, 0, 0, 0) solid 2px;
+    padding: 10px;
+}
+
+.afolio:hover {
+    border: solid cyan 2px;
+    color: cyan;
+    padding: 10px;
+
+
+}
+
+.rangun {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin: auto;
+
+}
+
+.rangdeux {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.rangunun {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin: auto;
+    margin-top: -570px;
+
+
+
+}
+
+.rangdeuxdeux {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+
+
+}
+
+.pixb {
+    opacity: 0;
+}
+
+.pixb:hover {
+    opacity: 0.8;
+}
+
+
+
+
+/* JUST DEFAULT SECTION */
+
+{}
+
+
+.jds {
+    margin-top: 140px;
+    margin-left: 370px;
+    font-size: 2em;
+    color: white;
+    position: relative;
+    top: 36px;
+
+}
+
+.just {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 310px;
+    margin-right: 300px;
+
+}
+
+.txtjds {
+    color: azure;
+    font-size: 1.em;
+    margin-top:
+}
+
+.visitme {
+    position: relative;
+    top: -43px;
+    left: 370px;
+    border: solid grey 3px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: grey;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.visitme:hover {
+    background-color: darkgrey;
+    box-shadow: 2px 2px 2px inset;
+    color: currentColor;
+}
+
+
+
+
+
+
+
+
+
+.twi {
+    margin-top: 60px;
+    margin-left: 370px;
+    font-size: 2em;
+    color: whitesmoke;
+
+
+}
+
+.twit {
+    color: whitesmoke;
+    margin-left: 370px;
+    font-size: 1.8em
+}
+
+.bold {
+    font-weight: 600
+}
+
+.twitter {
+    position: relative;
+    top: -50px;
+    left: 1470px;
+
+}
+
+.jd {
+    position: relative;
+    top: 150px;
+    right: -370px;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.txtjd {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 190px;
+    margin-left: 330px;
+    margin-right: 290px;
+    color: whitesmoke;
+    font-size: 1em;
+
+
+
+}
+
+.droite {
+    margin-right: 30px;
+}
+
+.icone {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 200px;
+}
+
+.icrs {
+    height: 60px;
+    width: 60px;
+    border: solid white 2px;
+    margin-right: 35px;
+    margin-top: 35px
+}
+
+.tm {
+    position: relative;
+    top: 190px;
+    right: -370px;
+    font-size: 2em;
+    color: currentColor;
+}
+
+.txttm {
+    color: currentColor;
+    margin-left: 370px;
+    font-size: 1.8em;
+    margin-top: 270px;
+}
+
+.ww {
+    color: cyan;
+    position: relative;
+    left: 365px;
+    top: 60px;
+    font-weight: 600;
+
+}
+
+.tirer {
+    position: relative;
+    left: 1500px;
+    top: -210px
+}
+
+.contacte {
+    position: relative;
+    top: 150px;
+    right: -370px;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.formu {
+    margin-left: 370px;
+    margin-top: 100px;
+}
+
+input {
+    background: none;
+    border: 2px solid #FFF;
+    width: 470px;
+    height: 50px;
+    margin-bottom: 30px;
+    color: #FFF;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+textarea {
+    background: none;
+    border: 2px solid #FFF;
+    width: 1170px;
+    height: 200px;
+    margin-bottom: 30px;
+    color: #FFF;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.pct {
+    color: whitesmoke
+}
+
+.formu button {
+    width: 370px;
+    height: 60px;
+    text-transform: uppercase;
+    color: #FFF;
+    background: #4BCAFF;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    border: 2px #4BCAFF solid;
+}
+
+.formu button:hover {
+    background: none;
+}
+
+.jujube {
+    position: relative;
+    left: 900px;
+    top: 280px;
+    color: whitesmoke;
+}
+
+footer {
+
+    position: relative;
+    top: 99px;
+    left: 360px;
+    margin-bottom: 50px;
+}
+
+.ac {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    margin-right: 10px;
+    border-right: black solid 2px;
+    padding: 10px;
+
+}
+
+.ac:hover {
+    border: solid cyan 2px;
+    color: cyan;
+    padding: 10px;
+
+
+}
